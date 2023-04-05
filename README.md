@@ -40,11 +40,6 @@ ___Posso atualizar seu codigo?___
  
  ---
  
- ## Bug no Mobile
-  A um pequeno bug na versão mobile do site que faz com que o site fique com uma barra de rolagem horizontal, o bug parece estar associado aos Slides do Swiper.js, no momento não sei como corrigir já que a versão para desktop (inclusive a emulada em um celular no firefox) está tudo normal, se alguém souber como corrigir basta fazer um comit ou me ajudar já que abri um topico de Q&A no repositorio do Swiper.JS
-  
- ---
- 
  ## Contato
  1. [renankalu@gmail.com](renankalu@gmail.com)
  2. [Youtube]()
