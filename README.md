@@ -20,7 +20,7 @@
 ___Por que apenas o clima da minha região?___
 > Isso ocore por se tratar de um Projeto Front-end ou seja para inplementar um sistema de busca personalizada requer um servidor proprio.
 
-___O indice UV está como unknow, por que?___
+___O indice UV está como "unknow", por que?___
 > A causa desse erro é que como falado anteriormente o OpenUV só permite 50 requests por dia no seu plano gratuito.
 
 ___Encontrei um erro, como entro em contato com você?___
@@ -28,7 +28,7 @@ ___Encontrei um erro, como entro em contato com você?___
 
 ---
 
-## Importante 
+## Importante! 
  **Lembrando que esse projeto é apenas uma forma de estudo, sem nenhuma intenção comercial** 
 ### Futuro do projeto 
  Futuramente com um conhecimento mais avançado em servidor pretendo implementar o mecanismo de busca além de atualizar a UI.
