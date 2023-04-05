@@ -1865,6 +1865,14 @@ navigator.geolocation.getCurrentPosition(
 		});
 
 		if (screen.width <= 750) {
+			var swiper = new Swiper(".mySwiper", {
+				slidesPerView: 1.8,
+				spaceBetween: 20,
+				pagination: {
+					el: ".swiper-pagination",
+					clickable: true,
+				},
+			});
 			console.log("Você está em um mobile");
 		} else {
 			console.log("você está no PC");
