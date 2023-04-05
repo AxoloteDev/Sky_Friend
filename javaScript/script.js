@@ -1864,6 +1864,12 @@ navigator.geolocation.getCurrentPosition(
 			},
 		});
 
+		if (screen.width <= 750) {
+			console.log("Você está em um mobile");
+		} else {
+			console.log("você está no PC");
+		}
+
 		getNextDaysWeather();
 	},
 	showError,
