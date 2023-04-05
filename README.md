@@ -1,6 +1,6 @@
 # Sky_Friend
 
-**[Link Para o Site]()**
+**[Link Para o Site](https://sky-friend.vercel.app/)** (___Permita o uso da localização para evitar erros___)
 
 ---
 
