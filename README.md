@@ -21,10 +21,13 @@ ___Por que apenas o clima da minha região?___
 > Isso ocore por se tratar de um Projeto Front-end ou seja para inplementar um sistema de busca personalizada requer um servidor proprio.
 
 ___O indice UV está como "unknow", por que?___
-> A causa desse erro é que como falado anteriormente o OpenUV só permite 50 requests por dia no seu plano gratuito.
+> A causa desse erro é que como falado anteriormente o OpenUV só permite 50 requests por dia no seu plano gratuito, por isso essa mensagem é exebida quando esse limite é excedido.
 
 ___Encontrei um erro, como entro em contato com você?___
-> Basta me mandar o erro no email [sky_friend.suporte@gmail.com](sky_friend@gmail.com).
+> Basta me mandar o erro no email [sky_friend.suporte@gmail.com](sky_friend@gmail.com) juntamente com uma print.
+
+___Posso atualizar seu codigo?___
+> Claro vá em frente, será uma otima oportunidade de quem sabe aprender mais
 
 ---
 
