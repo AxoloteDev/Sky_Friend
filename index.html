@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+		/>
+		<script defer src="/javaScript/script.js"></script>
+		<title>Sky Friend</title>
+	</head>
+	<body>
+		<nav>
+			<div id="error">
+				<img src="/imgs/error.png"> 
+				<h2>Oh não o Sky Friend</h2>
+				<h1>Encontrou um Erro</h1>
+				<p id="errorMensage">Erro</p>
+				<button onclick="location.reload()">Regarregar Pagina</button>
+				<p id="report">Quer reportar o erro? basta escrever para skyfriend.suporte@gmail.com</p>
+			</div>
+			<div id="loading">
+				<img src="/imgs/Logo 2.png" />
+				<h2>O Sky Friend está</h2>
+				<h1>Carregando</h1>
+				<img id="gif" src="/imgs/1497.gif" />
+			</div>
+			<img src="/imgs/logo.png" id="logo" />
+			<div id="icons">
+				<img src="/imgs/recarregar.png" id="reload" onclick="location.reload();" />
+			</div>
+		</nav>
+		<main>
+			<div id="weather">
+				<h2 id="country"></h2>
+				<h1 id="city"></h1>
+				<h2 id="data"></h2>
+				<img id="current-weather" />
+				<h1 id="weather-name"></h1>
+				<h2 id="description"></h2>
+			</div>
+			<div id="temperature">
+				<h1 id="temp"></h1>
+				<h2 id="feels"></h2>
+			</div>
+			<div id="info">
+				<div class="icons">
+					<div class="content">
+						<img src="/imgs/temp maxima.png" class="icon" />
+						<div class="text">
+							<h2>Temp.Maxima</h2>
+							<h1 id="max-temp"></h1>
+						</div>
+					</div>
+					<div class="content">
+						<img src="/imgs/temp minima.png" class="icon" />
+						<div class="text">
+							<h2>Temp.Minima</h2>
+							<h1 id="min-temp"></h1>
+						</div>
+					</div>
+				</div>
+				<div class="icons">
+					<div class="content">
+						<img src="/imgs/nascer-do-sol.png" class="icon" />
+						<div class="text">
+							<h2>Nascer do Sol</h2>
+							<h1 id="nascer-do-sol-data"></h1>
+						</div>
+					</div>
+					<div class="content">
+						<img src="/imgs/por-do-sol.png" class="icon" id="pSol" />
+						<div class="text">
+							<h2>Por Do Sol</h2>
+							<h1 id="por-do-sol-data"></h1>
+						</div>
+					</div>
+				</div>
+				<div class="icons">
+					<div class="content">
+						<img src="/imgs/humidade.png" class="icon" id="humidade" />
+						<div class="text">
+							<h2>Niv. Humidade</h2>
+							<h1 id="humidity"></h1>
+						</div>
+					</div>
+					<div class="content">
+						<img src="/imgs/uv.png" class="icon" id="uvico" />
+						<div class="text">
+							<h2>Indice De UV</h2>
+							<h1 id="uv">unknow</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="nextdays">
+				<h1>Previsão Para As Proximas Horas</h1>
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" id="card1">
+							<h3 id="local1"></h3>
+							<h2 id="day1"></h2>
+							<h1 id="time1"></h1>
+							<img id="icon1" />
+							<p id="description1"></p>
+							<h1 id="temp1"></h1>
+							<h2 id="tempMaxandMin1"></h2>
+						</div>
+						<div class="swiper-slide" id="card2">
+							<h3 id="local2"></h3>
+							<h2 id="day2"></h2>
+							<h1 id="time2"></h1>
+							<img id="icon2" />
+							<p id="description2"></p>
+							<h1 id="temp2"></h1>
+							<h2 id="tempMaxandMin2"></h2>
+						</div>
+						<div class="swiper-slide" id="card3">
+							<h3 id="local3"></h3>
+							<h2 id="day3"></h2>
+							<h1 id="time3"></h1>
+							<img id="icon3" />
+							<p id="description3"></p>
+							<h1 id="temp3"></h1>
+							<h2 id="tempMaxandMin3"></h2>
+						</div>
+						<div class="swiper-slide" id="card4">
+							<h3 id="local4"></h3>
+							<h2 id="day4"></h2>
+							<h1 id="time4"></h1>
+							<img id="icon4" />
+							<p id="description4"></p>
+							<h1 id="temp4"></h1>
+							<h2 id="tempMaxandMin4"></h2>
+						</div>
+						<div class="swiper-slide" id="card5">
+							<h3 id="local5"></h3>
+							<h2 id="day5"></h2>
+							<h1 id="time5"></h1>
+							<img id="icon5" />
+							<p id="description5"></p>
+							<h1 id="temp5"></h1>
+							<h2 id="tempMaxandMin5"></h2>
+						</div>
+						<div class="swiper-slide" id="card6">
+							<h3 id="local6"></h3>
+							<h2 id="day6"></h2>
+							<h1 id="time6"></h1>
+							<img id="icon6" />
+							<p id="description6"></p>
+							<h1 id="temp6"></h1>
+							<h2 id="tempMaxandMin6"></h2>
+						</div>
+						<div class="swiper-slide" id="card7">
+							<h3 id="local7"></h3>
+							<h2 id="day7"></h2>
+							<h1 id="time7"></h1>
+							<img id="icon7" />
+							<p id="description7"></p>
+							<h1 id="temp7"></h1>
+							<h2 id="tempMaxandMin7"></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="mensage">
+				<h1><img src="/imgs/Logo2.png" />Dica De Amigo</h1>
+				<p id="tip"></p>
+			</div>
+		</main>
+		<footer>
+			<p>
+				Sky Friend é um aplicativo de clima desenvolvido para Treinar minhas
+				habilidades Frond-end principalmente o JavaScript sem intenção comercial
+				nenhuma. todo o design foi feito por ©Renan Kalu, você pode acessar o código
+				fonte da pagina em
+				<a href="https://github.com/AxoloteDev" target="_blank"
+					>https://github.com/AxoloteDev</a
+				>, caso queira entrar em contato comigo meu e-mail é renankalu@gmail.com
+			</p>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	</body>
+</html>
