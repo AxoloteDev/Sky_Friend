@@ -1866,8 +1866,8 @@ navigator.geolocation.getCurrentPosition(
 
 		if (screen.width <= 750) {
 			var swiper = new Swiper(".mySwiper", {
-				slidesPerView: 3.8,
-				spaceBetween: 20,
+				slidesPerView: 3,
+				spaceBetween: 15,
 				pagination: {
 					el: ".swiper-pagination",
 					clickable: true,
