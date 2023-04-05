@@ -1860,17 +1860,15 @@ navigator.geolocation.getCurrentPosition(
 			spaceBetween: 30,
 			pagination: {
 				el: ".swiper-pagination",
-				clickable: true,
 			},
 		});
 
 		if (screen.width <= 750) {
 			var swiper = new Swiper(".mySwiper", {
-				slidesPerView: 3,
-				spaceBetween: 15,
+				slidesPerView: 3.8,
+				spaceBetween: 25,
 				pagination: {
 					el: ".swiper-pagination",
-					clickable: true,
 				},
 			});
 			console.log("Você está em um mobile");
