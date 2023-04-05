@@ -13,6 +13,8 @@
 4. [OpenUV](https://www.openuv.io/dashboard) - Usado para pegar o Indice UV da região do Usuario ___Importante lembrar que o OpenUV tem limite de apenas 50 request por dia___.
 
  Além dessas APIs foi utilizado a biblioteca Swiper.JS (você pode encontr-lá aqui [swiper.js](https://swiperjs.com/)) para criar o carrocel do clima das proximas horas.
+ 
+ Todo o design da pagina foi feito por mim, disponibilizei a imagem do wireframe que foi usado como base para a construção do site.
 
 ---
 
@@ -34,7 +36,7 @@ ___Posso atualizar seu codigo?___
 ## Importante! 
  **Lembrando que esse projeto é apenas uma forma de estudo, sem nenhuma intenção comercial** 
 ### Futuro do projeto 
- Futuramente com um conhecimento mais avançado em servidor pretendo implementar o mecanismo de busca além de atualizar a UI.
+ Futuramente com um conhecimento mais avançado em servidor pretendo implementar o mecanismo de busca além de atualizar o design UI.
  
  ---
  
