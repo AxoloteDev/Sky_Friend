@@ -329,9 +329,9 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 350px !important;
+	width: 270px !important;
 	background-color: #00a3ff;
-	background-image: linear-gradient(160deg, #00a1fb 50%, #00000073);
+	background-image: linear-gradient(160deg, #0da6ff 50%, #00000073);
 	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.513);
 	overflow-x: hidden;
 }
@@ -610,7 +610,7 @@ footer a:hover {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 250px !important;
+		width: 200px !important;
 		background-color: #00a3ff;
 		background-image: linear-gradient(160deg, #00a1fb 50%, #00000073);
 		box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.513);
