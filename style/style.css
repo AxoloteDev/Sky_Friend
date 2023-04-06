@@ -691,6 +691,7 @@ footer a:hover {
 	}
 
 	footer p {
+		line-height: 18px;
 		max-width: 850px;
 		text-align: center;
 		color: white;
