@@ -1818,17 +1818,8 @@ navigator.geolocation.getCurrentPosition(
 					default:
 						return null;
 				}
-				description2.innerHTML = formatedDescription2;
-				loading.style.display = "none";
-			} catch (error) {
-				loading.style.display = "none";
-				errorDiv.style.display = "block";
-				errorMensage.innerHTML = `Error: ${error}`;
-			}
-		}
-		getNextDaysWeather();
-
-		function getData() {
+				
+			function getData() {
 			const date = new Date();
 			// filter Months
 			const months = [
@@ -1854,6 +1845,16 @@ navigator.geolocation.getCurrentPosition(
 			} De ${date.getFullYear()} As ${hours}:${minutes}`;
 		}
 		getData();
+
+				description2.innerHTML = formatedDescription2;
+				loading.style.display = "none";
+			} catch (error) {
+				loading.style.display = "none";
+				errorDiv.style.display = "block";
+				errorMensage.innerHTML = `Error: ${error}`;
+			}
+		}
+		getNextDaysWeather();
 
 		var swiper = new Swiper(".mySwiper", {
 			slidesPerView: 3.8,
